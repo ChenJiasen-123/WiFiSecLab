@@ -1,0 +1,16 @@
+from typing import Protocol
+from wifiseclab.core.model import Event
+
+class APAdapter(Protocol):
+    """AP internal-state interface, requiring implementation evidence.
+
+    PhysicalRadioAdapter supplies radio transport/capture separately; a capture
+    or successful socket send cannot implement these AP-state guarantees.
+    """
+    def reset(self) -> list[Event]: ...
+    def execute(self, action: dict) -> list[Event]: ...
+    def observe(self, timeout: float) -> list[Event]: ...
+    def probe(self, property_name: str) -> list[Event]: ...
+
+class Strategy(Protocol):
+    def propose(self, model, coverage, history) -> dict: ...

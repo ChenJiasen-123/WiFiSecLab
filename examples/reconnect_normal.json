@@ -1,0 +1,188 @@
+[
+  {
+    "kind": "session_start",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:session_start",
+    "data": {}
+  },
+  {
+    "kind": "auth_accepted",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:auth_accepted",
+    "data": {
+      "akm": "psk"
+    }
+  },
+  {
+    "kind": "assoc_accepted",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:assoc_accepted",
+    "data": {
+      "pmf": false
+    }
+  },
+  {
+    "kind": "handshake_started",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:handshake_started",
+    "data": {}
+  },
+  {
+    "kind": "key_installed",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:key_installed",
+    "data": {
+      "key_id": "ptk-s1",
+      "slot": "ptk",
+      "counters_reset": true
+    }
+  },
+  {
+    "kind": "handshake_completed",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:handshake_completed",
+    "data": {}
+  },
+  {
+    "kind": "port_authorized",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:port_authorized",
+    "data": {}
+  },
+  {
+    "kind": "encrypt_new",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:encrypt_new",
+    "data": {
+      "key_id": "ptk-s1",
+      "nonce_domain": "CCMP:AP:TID0",
+      "nonce": 1
+    }
+  },
+  {
+    "kind": "disassociated",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:disassociated",
+    "data": {}
+  },
+  {
+    "kind": "port_revoked",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:port_revoked",
+    "data": {}
+  },
+  {
+    "kind": "key_deleted",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:key_deleted",
+    "data": {
+      "slot": "ptk"
+    }
+  },
+  {
+    "kind": "cleanup_checkpoint",
+    "peer": "sta1",
+    "session": "s1",
+    "source": "synthetic",
+    "evidence": "synthetic:cleanup_checkpoint",
+    "data": {}
+  },
+  {
+    "kind": "session_start",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:session_start",
+    "data": {}
+  },
+  {
+    "kind": "auth_accepted",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:auth_accepted",
+    "data": {
+      "akm": "psk"
+    }
+  },
+  {
+    "kind": "assoc_accepted",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:assoc_accepted",
+    "data": {
+      "pmf": false
+    }
+  },
+  {
+    "kind": "handshake_started",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:handshake_started",
+    "data": {}
+  },
+  {
+    "kind": "key_installed",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:key_installed",
+    "data": {
+      "key_id": "ptk-s2",
+      "slot": "ptk",
+      "counters_reset": true
+    }
+  },
+  {
+    "kind": "handshake_completed",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:handshake_completed",
+    "data": {}
+  },
+  {
+    "kind": "port_authorized",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:port_authorized",
+    "data": {}
+  },
+  {
+    "kind": "encrypt_new",
+    "peer": "sta1",
+    "session": "s2",
+    "source": "synthetic",
+    "evidence": "synthetic:encrypt_new",
+    "data": {
+      "key_id": "ptk-s2",
+      "nonce_domain": "CCMP:AP:TID0",
+      "nonce": 1
+    }
+  }
+]

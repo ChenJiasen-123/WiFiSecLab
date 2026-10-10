@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "wifiseclab"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = []
+[project.optional-dependencies]
+crypto = ["cryptography>=46"]
+[project.scripts]
+wifiseclab = "wifiseclab.core.cli:main"
+wifiseclab-plan = "wifiseclab.core.planning:main"
+wifiseclab-gtk = "wifiseclab.lifecycle.gtk_retirement:main"
+wifiseclab-hotspot = "wifiseclab.network.hotspot_cli:main"
+wifiseclab-eapol = "wifiseclab.protocol.eapol:main"
+wifiseclab-wpa2-build = "wifiseclab.protocol.wpa2_cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

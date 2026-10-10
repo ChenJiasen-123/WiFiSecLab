@@ -1,0 +1,144 @@
+﻿[
+    {
+        "kind":  "session_start",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:session_start",
+        "data":  {
+
+                 }
+    },
+    {
+        "data":  {
+                     "exchange_id":  "sae1"
+                 },
+        "source":  "synthetic",
+        "evidence":  "synthetic:sae_commit_accepted",
+        "session":  "s1",
+        "kind":  "sae_commit_accepted",
+        "peer":  "sta1"
+    },
+    {
+        "data":  {
+                     "exchange_id":  "sae1"
+                 },
+        "source":  "synthetic",
+        "evidence":  "synthetic:sae_confirm_accepted",
+        "session":  "s1",
+        "kind":  "sae_confirm_accepted",
+        "peer":  "sta1"
+    },
+    {
+        "kind":  "assoc_accepted",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:assoc_accepted",
+        "data":  {
+                     "pmf":  true
+                 }
+    },
+    {
+        "kind":  "handshake_started",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:handshake_started",
+        "data":  {
+                     "exchange_id":  "h1"
+                 }
+    },
+    {
+        "data":  {
+                     "message":  1,
+                     "replay_counter":  1,
+                     "exchange_id":  "h1"
+                 },
+        "source":  "synthetic",
+        "evidence":  "synthetic:M1",
+        "session":  "s1",
+        "kind":  "handshake_message",
+        "peer":  "sta1"
+    },
+    {
+        "data":  {
+                     "message":  2,
+                     "replay_counter":  1,
+                     "exchange_id":  "h1"
+                 },
+        "source":  "synthetic",
+        "evidence":  "synthetic:M2",
+        "session":  "s1",
+        "kind":  "handshake_message",
+        "peer":  "sta1"
+    },
+    {
+        "data":  {
+                     "message":  3,
+                     "replay_counter":  2,
+                     "exchange_id":  "h1"
+                 },
+        "source":  "synthetic",
+        "evidence":  "synthetic:M3",
+        "session":  "s1",
+        "kind":  "handshake_message",
+        "peer":  "sta1"
+    },
+    {
+        "data":  {
+                     "message":  4,
+                     "replay_counter":  2,
+                     "exchange_id":  "h1"
+                 },
+        "source":  "synthetic",
+        "evidence":  "synthetic:M4",
+        "session":  "s1",
+        "kind":  "handshake_message",
+        "peer":  "sta1"
+    },
+    {
+        "kind":  "key_installed",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:key_installed",
+        "data":  {
+                     "key_id":  "ptk-s1",
+                     "slot":  "ptk",
+                     "counters_reset":  true
+                 }
+    },
+    {
+        "kind":  "handshake_completed",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:handshake_completed",
+        "data":  {
+
+                 }
+    },
+    {
+        "kind":  "port_authorized",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:port_authorized",
+        "data":  {
+
+                 }
+    },
+    {
+        "kind":  "encrypt_new",
+        "peer":  "sta1",
+        "session":  "s1",
+        "source":  "synthetic",
+        "evidence":  "synthetic:encrypt_new",
+        "data":  {
+                     "key_id":  "ptk-s1",
+                     "nonce_domain":  "CCMP:AP:TID0",
+                     "nonce":  1
+                 }
+    }
+]
